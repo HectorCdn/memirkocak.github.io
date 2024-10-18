@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+	font-family: Outfit;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-color: lightgrey;
+}
+
+.fond {
+	background-color: white;
+	width: 60%;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.image {
+	background: center / cover
+		url("https://s3-alpha-sig.figma.com/img/c519/a667/477a321f4931048facbbcf9aa521da4c?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AkNZe89MzbbqamHsc-mZn1a5B784S5IvmPH1K6HNdbxgcoyt0b0o1fQgpwVhdDYOcaR1iC2x6OFfWJ0T1so079dCUS0fC0-P4QYdUSiTckOJbnQd4a-6ERPM-Igh90~aCSafgAo4T8HuGjzo2GkgWZBzf-VdcqdhemLIkZMbcQisI1DtCvtVUjMOXr3TV~oNt-wy2wMu3of3Wn7aPYYgOUZqp-f41wDqYApEH8~ilfOzPIrEoQ2agi6KotYJa212AUTekc~Tm7-gsmu0PQYWPw3pAeBeU5fJh0mg9VfLTHagR-clgwM9SUu9KQqjp52o3YA9tmc97QP~IIgTVOm1Uw__");
+	height: 250px;
+	width: 700px;
+	margin: 30px 0px;
+	border-radius: 12px;
+}
+
+h1 {
+	font-weight: bold;
+	color: #5e5e5e;
+	display: flex;
+}
+
+.pt2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.personne {
+	display: flex;
+	flex-direction: column;
+}
+
+.idd {
+	display: flex;
+	flex-direction: row;
+	gap: 0px 6px;
+}
+
+.pp {
+	background: center / cover
+		url("https://s3-alpha-sig.figma.com/img/9151/8d87/8988b2608c48fcae0941afaf1831ea82?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TfVfU1fwfLPwQaXvbrqG0uJaqRE8N9R06n1ki6cgUMcwQmYVdTfu7OJbinOo15q2Agqy7abi2gzUxz6~zTE~C595sApgcuHbv0B-Ym9J-qiYn9JdA3dlNrWQWACmF43q1fHODPF3dwzRvzS6gpmXgCJgK3TtSJaHBfpkqVWao4l9a-5jHHIF2NRezK9LVXt4oWXqZ2iIOlaDfG49Hi12J2HsZP0oEaHeH3XA4keHG5V3ERgfCZMqSE~D2PlBQyn~BwU19-3SqblP5x1XMhtl1PdQQtIRQQ06583Jm6NACJvmslasGx~3WxRzdpCCcXsXf8D-lLK5XaNvohn1j5fY4w__");
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.pp2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.lore1 {
+	font-weight: lighter;
+}
+
+.avis {
+	display: flex;
+	flex-direction: column;
+}
+
+.note {
+	color: #e8786e;
+}
+
+.btn-div a {
+	gap: 10px 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #e8786e;
+	padding: 3px 10px;
+	border-radius: 6px;
+}
