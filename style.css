@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+h1{
+    color: #E8786E;
+}
+
+main{
+    margin: 5dvh 15dvw;
+    background-color: white;
+    padding: 5dvw;
+    border-radius: 8px;
+}
+
+body{
+    background-color: #E4E4E4;
+}
+
+article{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.profil-div{
+    display: flex;
+}
+
+.btn-div a{
+    text-decoration: none;
+    color: white;
+    background-color: #E8786E;
+    padding: 3px 10px ;
+    border-radius: 6px;
+}
+
+.star-div{
+    display: flex;
+}
+
+.star-div span {
+    color: #E8786E;
+}
+
+.div-2-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 25px;
+}
+
+nav{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+nav a{
+    text-decoration: none;
+    color: #565656;
+}
+
+.header-search{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.btn-connexion{
+    background-color: white;
+    border: #E8786E solid 1px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.marmitoux{
+    color: #E8786E;
+    font-weight: bold;
+}
